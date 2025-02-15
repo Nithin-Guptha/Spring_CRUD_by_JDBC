@@ -6,11 +6,8 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 public class EmpEntity {
 	
 	private int id;
-	
 	private String ename;
-	
 	private String role;
-
 	private double sal;
 	
 	public int getId() {
